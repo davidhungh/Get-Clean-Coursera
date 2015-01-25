@@ -17,6 +17,7 @@ Creating one R script called "run_analysis.R" that does the following.
 average of each variable for each activity and each subject.
 
 ANALYSIS PROCEDURE
+
 Following is a description of how the script "run_analyis.R" works:
 
 1 - Merges the training and the test sets to create one data set
