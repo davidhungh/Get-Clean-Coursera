@@ -35,6 +35,10 @@ Following is a description of how the script "run_analyis.R" works:
 		The way it was handled was just to make a data frame of the activity labels,
 		then use the activity code as an index into this data frame to select the 
 		correct activity label.The activity label data frame looks like this:
+
+		V1 is the index 
+		V2 is the activity text (or label)
+
 			  V1                 V2
 			1  1            walking
 			2  2   walking.upstairs
@@ -43,13 +47,10 @@ Following is a description of how the script "run_analyis.R" works:
 			5  5           standing
 			6  6             laying
 			
-		V1 is the index 
-		V2 is the activity text (or label)
-
 		For each row of the data set, 
-			get the index (or the activity code)
-			from the index, get the label (see the data frame over)
-			replace the index by the label in the original data set			
+			- get the index (or the activity code)
+			- from the index, get the label (see the data frame over)
+			- replace the index by the label in the original data set			
 
 4- Appropriately labels the data set with descriptive variable names. 
 	- Make the feature texts confort to R guidelines, for example using "." instead of "-"
