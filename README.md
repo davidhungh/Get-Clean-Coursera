@@ -81,3 +81,8 @@ by "Activity". This step might be not necessary
 - Calculate the mean value of each variable group by each activity and each subject 
 
 Write the tidy data set to a file in the working directory with row.names = FALSE
+
+How to run the script "run_analysis.R"
+- Set the working directory the same level as the Samsung data set, that is "UCI_Har_Dataset"
+- In R, source the script, that is
+> source("run_analysis.R")
